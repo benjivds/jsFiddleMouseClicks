@@ -122,6 +122,7 @@ function firstLastDistance(){
    y = getMouseXY(arrayElements,mousePoints-1);
     distance = calculateDistance(x[0],x[1],y[0],y[1]);
     alert('The traveled distance is: ' + distance);
+    cleanPage();
 }
 
 function createLineElement(x, y, length, angle) {

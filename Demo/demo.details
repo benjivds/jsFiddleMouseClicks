@@ -1,0 +1,6 @@
+---
+name: Mouse click capturer
+description: capture the clicked points in screen and make calculation with points
+authors:
+  - Benjamin Vander Stichelen
+...

@@ -1,0 +1,10 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: Mouse click capturer
+ description: capture the clicked points in screen and make calculation with points
+ authors:
+   - Benjamin Vander Stichelen
+...
+
+Everything after the line containing only '...' will not be parsed

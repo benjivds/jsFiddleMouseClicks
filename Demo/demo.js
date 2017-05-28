@@ -99,6 +99,7 @@ function fourPoints(){
     if(checkIsSquare(a,b,c,d)){
         area = calculateSquare(a,b,c,d);
         //square?area=<area>;&points=
+        alert('Squared thoughts: ' + area);
         sendToSite('square?area=' + area +';&points=' + btoa('['+arrayElements+']') );
     } else {
         firstLastDistance();

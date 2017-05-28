@@ -172,10 +172,6 @@ function getMouseXY(str,index){
     return a;
 }
 
-function validateSquare(){
-
-}
-
 function howManyPoints(){
    
   return (arrayElements.split(",").length - 1);
